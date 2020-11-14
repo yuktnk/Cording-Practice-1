@@ -142,7 +142,6 @@ a:hover {
   color: #2E5180;
   margin-bottom: 15px;
 }
-
 @media (min-width: 900px) {
   .hero {
     height: 700px;
@@ -155,10 +154,42 @@ a:hover {
     margin-bottom: 22px;
   }
 }
-
 @media (-ms-high-contrast:none), not all and (-ms-high-contrast: none) {
   .hero img {
     width: calc((100vw - 17px) * 0.84);
     max-width: 637.78px;
+  }
+}
+
+/* メッセージ */
+.message {
+  background-color: #2E5180;
+  color: #ffffff;
+  padding: 67px 0;
+}
+.message h2 {
+  margin-bottom: 38px;
+  font-size: 24px;
+  line-height: 1.67;
+  text-align: center;
+}
+.message p {
+  max-width: 640px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 1.86;
+}
+@media (min-width: 900px) {
+  .message {
+    padding: 81px 0;
+  }
+  .message h2 {
+    font-size: 36px;
+    line-height: 1.33;
+  }
+}
+@media (max-width: 374px) {
+  .message h2 {
+    font-size: 20px;
   }
 }
